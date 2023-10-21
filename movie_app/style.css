@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+    background-color: rgb(51, 14, 86);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    overflow: hidden;
+  
+}
+
+.card{
+    display: inline-block;
+    position:fixed;
+    width:600px;
+    height:500px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+   
+    
+    margin: auto;
+    
+    border-radius: 0.5cm;
+    background-color:lavender;
+   
+}
+
+.navtop
+{
+  
+    display:flex;
+    flex-direction: row;
+  margin-bottom: 0cm;
+    justify-content:space-around;
+    align-items: flex-start;
+    width:100%;
+    border-radius: 0.5cm;
+    background-color: black;
+
+}
+
+#full{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#con{
+    flex-wrap: nowrap;
+    margin:1cm;
+}
+#btn,#movie{
+    margin:1cm;
+   
+    width:6cm;
+    flex-basis: 2.5cm;
+height:1cm;
+text-align: center;
+color: rgb(7, 2, 12);
+background-color: rgb(209, 193, 225);
+font-weight: 3cm;
+border-radius: 0.5cm;
+box-shadow: 0.5cm 0.5cm 10cm 1cm rgb(170, 118, 218);
+
+}
+
+
+#btn{
+    width:3cm;
+    border-radius:1cm;
+    background-color: black;
+    color:lavender;
+    
+}
+
+#display{
+    padding:1cm;
+   flex-wrap: nowrap;
+    margin: 0cm;
+    width: 300px;
+    color: rgb(17, 98, 103);
+  
+}
+
+#heading{
+   text-align:center;
+   color:rgb(225, 59, 225);
+   background-color:  rgb(51, 14, 86);
+   
+   animation:glitter 4s infinite;
+
+}
+@keyframes glitter{
+    10%{
+         transform:translateY(0.3cm);
+         color:rgb(113, 113, 229);
+    }
+    40%{
+        transform:translateY(-0.2cm);
+        color:rgb(244, 195, 212);
+      
+       
+    }
+    60%{
+        transform:translateX(-0.3cm);
+        color:rgb(113, 113, 229);
+    }
+    100%{
+        transform:translateX(0.3cm);
+        color:rgb(226, 176, 194);
+    }
+
+}
+
+#heading>svg{
+    margin-left:0.2cm;
+    margin-right:0.2cm;
+    color:black;
+   
+}
+
+.bold{
+    color:black;
+    padding-right:0.1cm;
+ 
+}
+
+.content{
+    text-align: left;
+
+    
+}
